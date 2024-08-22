@@ -1,0 +1,18 @@
+.blog-cards{
+    transition: all ease 0.2s;
+
+    .card-group{
+
+        .blog-card{
+            transition: none;
+            
+            &:hover{
+                border: 1px solid #cdd5e1;
+            }
+
+            .blog-card-content{
+
+            }
+        }
+    }
+}

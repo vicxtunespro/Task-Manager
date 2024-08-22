@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.blog-cards {
+  transition: all ease 0.2s;
+}
+.blog-cards .card-group .blog-card {
+  transition: none;
+}
+.blog-cards .card-group .blog-card:hover {
+  border: 1px solid #cdd5e1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  height: 100dvh;
+  background-image: url("../images/featured.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+.main-container .nav-bar {
+  background-color: transparent;
+  padding: 1rem;
+}
+.main-container .nav-bar nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container .nav-bar nav .logo {
+  color: white;
+  font-weight: 700;
+}
+.main-container .nav-bar nav ul {
+  list-style: none;
+  gap: 1.5rem;
+  color: white;
+  font-size: small;
+  font-weight: 200;
+}
+.main-container .nav-bar nav .buttons .login {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+.main-container .nav-bar nav .buttons .signup {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  transition: all ease-in 0.2s;
+}
+.main-container .nav-bar nav .buttons .signup:hover {
+  background-color: white;
+  color: rgb(1, 11, 34);
+}
+.main-container .intro {
+  height: 50%;
+  color: white;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .intro .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.main-container .intro .content p {
+  font-weight: 200;
+}
+.main-container .intro .cta-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  transition: all ease-in 0.2s;
+}
+.main-container .intro .cta-btn:hover {
+  background-color: white;
+  color: rgb(0, 4, 41);
+}
+
+/*# sourceMappingURL=style.css.map */
