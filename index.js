@@ -26,7 +26,11 @@ app.get('/', (req, res)=>{
 
 //Displaying all resources
 app.get('/blogs', (req, res)=>{
-    res.render('blogs', {blogs: Blogs});
+    res.render('blogs', {blogs: Blogs, title: "Welcome Home!", description: "Read your favorite articles here and save for later."});
+})
+
+app.get('/blogpost', (req, res)=>{
+    res.render('blogPost', {imageURL: "/images/2.jpg"});
 })
 
 //Display specific resource
