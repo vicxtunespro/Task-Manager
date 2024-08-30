@@ -94,7 +94,10 @@
 }
 
 .featured-image {
+<<<<<<< HEAD
   mix-blend-mode: multiply;
+=======
+>>>>>>> 53f727d2f5a6013f7cce474e7ff67017e2feea5b
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
