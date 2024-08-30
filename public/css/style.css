@@ -93,4 +93,12 @@
   color: rgb(0, 4, 41);
 }
 
+.featured-image {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all ease 2s;
+}
+
 /*# sourceMappingURL=style.css.map */

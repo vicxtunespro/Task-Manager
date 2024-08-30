@@ -1,10 +1,7 @@
 <%- include('partials/header')%>
 <div class="main px-2 md:px-4 lg:px-16 bg-gradient-to-br from-blue-500 to-blue-900 to-95%">
     <%- include('partials/navbar')%>
-    <div class="featured-text h-48 flex flex-col justify-center items-center text-slate-50">
-        <span class="text-2xl font-bold">What's new?</span>
-        <p class="font-light text-sm px-8 text-center">Read your favorite articles here and save for later.</p>
-    </div>
+    <%- include('partials/sectionHeader')%>
 </div>
 
 <!-- Card Groups -->
@@ -35,4 +32,12 @@
     </div>
 </div>
 <!-- end of declaration -->
+
+<!-- Display cards -->
+<%- include('partials/displayCards')%>
+<!-- End of display cards -->
+
+<!-- Display cards -->
+<%- include('partials/testmonial')%>
+<!-- End of display cards -->
 <%- include('partials/footer')%>
