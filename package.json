@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index",
+    "dev": "nodemon ./lib/index.js",
     "styles": "npx tailwindcss -i ./public/css/tailwind/main.css -o ./public/css/tailwind/style.css --watch",
     "sass": "sass --watch ./public/css/global.scss ./public/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
